@@ -47,4 +47,8 @@ php artisan serve
 http://127.0.0.1:8000/buku
 
 ## 👩‍💻 Author
+<<<<<<< HEAD
 Zaskia Hajany Zahra Dalimunthe
+=======
+Zaskia Hajany Zahra Dalimunthe
+>>>>>>> e0355735d3584bc37a9dcc2806d9e14670c388ce
