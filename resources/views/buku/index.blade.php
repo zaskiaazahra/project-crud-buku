@@ -3,77 +3,7 @@
 <head>
     <title>Data Buku</title>
 
-    <style>
-        body {
-            font-family: Arial;
-            background: #eef2f7;
-        }
-
-        .container {
-            width: 80%;
-            margin: 40px auto;
-            background: white;
-            padding: 25px;
-            border-radius: 10px;
-            box-shadow: 0 0 15px rgba(0,0,0,0.1);
-        }
-
-        h2 {
-            margin-bottom: 20px;
-        }
-
-        .btn {
-            padding: 8px 12px;
-            border-radius: 5px;
-            text-decoration: none;
-            color: white;
-            font-size: 14px;
-        }
-
-        .tambah {
-            background: #3498db;
-        }
-
-        .edit {
-            background: #2ecc71;
-        }
-
-        .hapus {
-            background: #e74c3c;
-        }
-
-        .btn:hover {
-            opacity: 0.8;
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            margin-top: 15px;
-        }
-
-        table th, table td {
-            padding: 12px;
-            text-align: center;
-        }
-
-        table thead {
-            background: #2c3e50;
-            color: white;
-        }
-
-        table tbody tr:nth-child(even) {
-            background: #f2f2f2;
-        }
-
-        table tbody tr:hover {
-            background: #ddd;
-        }
-
-        form {
-            display: inline;
-        }
-    </style>
+    <link rel="stylesheet" href="{{ asset('style.css') }}">
 </head>
 
 <body>
